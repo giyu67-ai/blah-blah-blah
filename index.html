@@ -1,64 +1,1001 @@
-s<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Bano Qabil - Free IT Training</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NovaBank | Banking Made Simple</title>
+
+    <meta name="description"
+          content="NovaBank is a modern, simple and user-friendly digital banking experience.">
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- HEADER -->
-    <div id="header">
-        <img src="bano-qabil logo.webp" width="80" height="80">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Courses</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <button class="btn">Apply Now</button>
-    </div>
+    <!-- ================= HEADER ================= -->
 
-    <!-- HERO SECTION - BLUE BANNER -->
-    <div class="hero-section">
-        <h1>Bano Qabil 2.0</h1>
-        <p>Pakistan's Largest Free IT Training Program</p>
-        <button class="btn">Apply Now</button>
-    </div>
+    <header class="header">
 
-    <!-- 3 BOXES SECTION -->
-    <h2 class="heading">Our 3 Pillars</h2>
-    <div class="box">
-        
-        <div class="box1">
-            <div class=""></div>
-            <div class="boxpara">
-                <h2>Advanced IT Training</h2>
-                <p>Learn Web Development, AI, Graphic Design, Digital Marketing. 100% Free.</p>
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">N</span>
+                <span>Nova<span class="logo-blue">Bank</span></span>
+            </a>
+
+            <nav class="navigation">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#security">Security</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="nav-buttons">
+                <a href="#login" class="btn btn-outline">Log In</a>
+                <a href="#signup" class="btn btn-primary">Sign Up</a>
             </div>
+
         </div>
 
-        <div class="box2">
-            <div img="ittraining.png"></div>
-            <div class="boxpara">
-                <h2>Incubation Center</h2>
-                <p>We help you start your own business with mentorship and funding.</p>
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO SECTION ================= -->
+
+        <section class="hero" id="home">
+
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <div class="badge">
+                        ● Banking, but simpler.
+                    </div>
+
+                    <h1>
+                        Your money.
+                        <span>Your future.</span>
+                        <br>
+                        One simple place.
+                    </h1>
+
+                    <p>
+                        Welcome to NovaBank — a modern banking experience
+                        designed to make managing your money less confusing,
+                        less stressful and a lot more straightforward.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#signup" class="btn btn-primary btn-large">
+                            Open an Account
+                        </a>
+
+                        <a href="#services" class="btn btn-secondary btn-large">
+                            Explore Services
+                        </a>
+                    </div>
+
+                    <div class="hero-note">
+                        ✓ Simple interface &nbsp;&nbsp;
+                        ✓ Secure banking &nbsp;&nbsp;
+                        ✓ Built for everyday life
+                    </div>
+
+                </div>
+
+
+                <!-- DIGITAL BANK CARD -->
+
+                <div class="card-area">
+
+                    <div class="bank-card">
+
+                        <div class="card-top">
+                            <span>NOVABANK</span>
+                            <span class="chip">▣</span>
+                        </div>
+
+                        <div class="card-number">
+                            4829&nbsp;&nbsp; 1736&nbsp;&nbsp; 9054&nbsp;&nbsp; 2186
+                        </div>
+
+                        <div class="card-bottom">
+                            <div>
+                                <small>CARD HOLDER</small>
+                                <strong>ALEX MORGAN</strong>
+                            </div>
+
+                            <div>
+                                <small>EXPIRES</small>
+                                <strong>08/30</strong>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="floating-balance">
+                        <span>Available balance</span>
+                        <strong>$8,426.50</strong>
+                        <small>↑ 12.4% this month</small>
+                    </div>
+
+                </div>
+
             </div>
+
+        </section>
+
+
+        <!-- ================= QUICK STATS ================= -->
+
+        <section class="stats-section">
+
+            <div class="container stats-grid">
+
+                <div class="stat">
+                    <strong>24/7</strong>
+                    <span>Digital Access</span>
+                </div>
+
+                <div class="stat">
+                    <strong>100%</strong>
+                    <span>Online Banking</span>
+                </div>
+
+                <div class="stat">
+                    <strong>256-bit</strong>
+                    <span>Data Encryption</span>
+                </div>
+
+                <div class="stat">
+                    <strong>1 App</strong>
+                    <span>For Your Finances</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SERVICES ================= -->
+
+        <section class="section" id="services">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">WHAT WE OFFER</span>
+
+                    <h2>
+                        Everything you need,
+                        <span>without the headache.</span>
+                    </h2>
+
+                    <p>
+                        Whether you're saving your first $100, paying bills,
+                        receiving your salary or planning your future,
+                        NovaBank keeps everything organized in one place.
+                    </p>
+
+                </div>
+
+
+                <div class="services-grid">
+
+                    <article class="service-card service-red">
+
+                        <div class="service-icon">01</div>
+
+                        <h3>Everyday Banking</h3>
+
+                        <p>
+                            Manage your everyday spending with a simple
+                            digital account designed for purchases,
+                            transfers and bills.
+                        </p>
+
+                        <a href="#signup">Learn more →</a>
+
+                    </article>
+
+
+                    <article class="service-card service-blue">
+
+                        <div class="service-icon">02</div>
+
+                        <h3>Savings Goals</h3>
+
+                        <p>
+                            Create personal savings goals and keep track
+                            of your progress so your money has a purpose.
+                        </p>
+
+                        <a href="#signup">Start saving →</a>
+
+                    </article>
+
+
+                    <article class="service-card service-dark">
+
+                        <div class="service-icon">03</div>
+
+                        <h3>Digital Payments</h3>
+
+                        <p>
+                            Send money, pay bills and manage your payments
+                            without unnecessary paperwork or complicated
+                            processes.
+                        </p>
+
+                        <a href="#signup">Explore payments →</a>
+
+                    </article>
+
+
+                    <article class="service-card service-red">
+
+                        <div class="service-icon">04</div>
+
+                        <h3>Budget Tools</h3>
+
+                        <p>
+                            See where your money goes with easy-to-understand
+                            spending categories and monthly summaries.
+                        </p>
+
+                        <a href="#signup">View tools →</a>
+
+                    </article>
+
+
+                    <article class="service-card service-blue">
+
+                        <div class="service-icon">05</div>
+
+                        <h3>Account Alerts</h3>
+
+                        <p>
+                            Stay informed with notifications for purchases,
+                            transfers, account activity and important updates.
+                        </p>
+
+                        <a href="#security">Learn about alerts →</a>
+
+                    </article>
+
+
+                    <article class="service-card service-dark">
+
+                        <div class="service-icon">06</div>
+
+                        <h3>Customer Support</h3>
+
+                        <p>
+                            Have a question? Our support information is
+                            available so you can find answers without
+                            feeling lost.
+                        </p>
+
+                        <a href="#contact">Contact us →</a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= LOGIN / SIGN UP ================= -->
+
+        <section class="account-section" id="login">
+
+            <div class="container account-grid">
+
+                <div class="account-info">
+
+                    <span class="section-label">YOUR ACCOUNT</span>
+
+                    <h2>
+                        Banking should feel
+                        <span>easy.</span>
+                    </h2>
+
+                    <p>
+                        New to online banking? That's okay. NovaBank is
+                        designed with clear navigation and simple language
+                        so you can understand what you're doing before
+                        you click anything.
+                    </p>
+
+                    <ul class="check-list">
+
+                        <li>
+                            <span>✓</span>
+                            Easy-to-understand account information
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            Clear transaction history
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            Simple account management
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            Security-focused design
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="login-box">
+
+                    <div class="form-tabs">
+
+                        <a href="#login" class="active-tab">
+                            Log In
+                        </a>
+
+                        <a href="#signup">
+                            Sign Up
+                        </a>
+
+                    </div>
+
+
+                    <div class="form-content">
+
+                        <h3>Welcome back</h3>
+
+                        <p class="form-description">
+                            Log in to access your NovaBank account.
+                        </p>
+
+                        <form>
+
+                            <label for="email">
+                                Email address
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="you@example.com"
+                                required
+                            >
+
+
+                            <label for="password">
+                                Password
+                            </label>
+
+                            <input
+                                type="password"
+                                id="password"
+                                name="password"
+                                placeholder="Enter your password"
+                                required
+                            >
+
+
+                            <div class="form-options">
+
+                                <label class="remember">
+                                    <input type="checkbox">
+                                    Remember me
+                                </label>
+
+                                <a href="#contact">
+                                    Forgot password?
+                                </a>
+
+                            </div>
+
+
+                            <button
+                                type="submit"
+                                class="btn btn-primary form-button">
+                                Log In
+                            </button>
+
+                        </form>
+
+                        <p class="form-footer">
+                            Don't have an account?
+                            <a href="#signup">Create one</a>
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SIGN UP ================= -->
+
+        <section class="signup-section" id="signup">
+
+            <div class="container">
+
+                <div class="signup-box">
+
+                    <div class="signup-text">
+
+                        <span class="section-label">GET STARTED</span>
+
+                        <h2>
+                            Ready to take
+                            <span>control?</span>
+                        </h2>
+
+                        <p>
+                            Opening a NovaBank account starts with the
+                            basics. We believe banking should explain
+                            itself instead of making you feel like you
+                            need a finance degree.
+                        </p>
+
+                    </div>
+
+
+                    <form class="signup-form">
+
+                        <div class="input-row">
+
+                            <div>
+                                <label for="first-name">
+                                    First name
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="first-name"
+                                    placeholder="Alex"
+                                    required
+                                >
+                            </div>
+
+
+                            <div>
+                                <label for="last-name">
+                                    Last name
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="last-name"
+                                    placeholder="Morgan"
+                                    required
+                                >
+                            </div>
+
+                        </div>
+
+
+                        <label for="signup-email">
+                            Email address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="signup-email"
+                            placeholder="you@example.com"
+                            required
+                        >
+
+
+                        <label for="signup-password">
+                            Create a password
+                        </label>
+
+                        <input
+                            type="password"
+                            id="signup-password"
+                            placeholder="Create a secure password"
+                            required
+                        >
+
+
+                        <label class="terms-checkbox">
+
+                            <input type="checkbox" required>
+
+                            <span>
+                                I agree to the NovaBank
+                                <a href="#terms">Terms & Conditions</a>
+                                and understand the account information
+                                provided on this website.
+                            </span>
+
+                        </label>
+
+
+                        <button
+                            type="submit"
+                            class="btn btn-primary form-button">
+                            Create My Account
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="section about-section" id="about">
+
+            <div class="container about-grid">
+
+                <div>
+
+                    <span class="section-label">ABOUT NOVABANK</span>
+
+                    <h2>
+                        Banking designed for
+                        <span>real life.</span>
+                    </h2>
+
+                    <p>
+                        NovaBank is a fictional modern banking concept
+                        created around one simple idea: financial services
+                        should be understandable.
+                    </p>
+
+                    <p>
+                        Instead of filling every screen with complicated
+                        financial terminology, NovaBank focuses on clear
+                        information, recognizable buttons and an interface
+                        that helps customers understand their choices.
+                    </p>
+
+                    <a href="#contact" class="btn btn-secondary">
+                        Learn More About Us
+                    </a>
+
+                </div>
+
+
+                <div class="about-panel">
+
+                    <div class="about-panel-top">
+                        <span>OUR APPROACH</span>
+                        <span class="red-dot">●</span>
+                    </div>
+
+                    <div class="approach-item">
+
+                        <strong>01 — Simplicity</strong>
+
+                        <p>
+                            Information should be easy to find and easy
+                            to understand.
+                        </p>
+
+                    </div>
+
+
+                    <div class="approach-item">
+
+                        <strong>02 — Transparency</strong>
+
+                        <p>
+                            Customers deserve clear explanations before
+                            making financial decisions.
+                        </p>
+
+                    </div>
+
+
+                    <div class="approach-item">
+
+                        <strong>03 — Security</strong>
+
+                        <p>
+                            Account protection and responsible handling
+                            of information are important parts of banking.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SECURITY ================= -->
+
+        <section class="security-section" id="security">
+
+            <div class="container">
+
+                <div class="section-heading light-heading">
+
+                    <span class="section-label">SECURITY FIRST</span>
+
+                    <h2>
+                        Your information
+                        <span>matters.</span>
+                    </h2>
+
+                    <p>
+                        A modern banking website should make security
+                        visible and understandable instead of hiding it
+                        behind complicated language.
+                    </p>
+
+                </div>
+
+
+                <div class="security-grid">
+
+                    <div class="security-card">
+
+                        <div class="security-number">
+                            01
+                        </div>
+
+                        <h3>Secure Access</h3>
+
+                        <p>
+                            Account access uses password-protected
+                            authentication fields and encourages
+                            responsible login habits.
+                        </p>
+
+                    </div>
+
+
+                    <div class="security-card">
+
+                        <div class="security-number">
+                            02
+                        </div>
+
+                        <h3>Account Monitoring</h3>
+
+                        <p>
+                            Customers can review account activity and
+                            identify transactions they do not recognize.
+                        </p>
+
+                    </div>
+
+
+                    <div class="security-card">
+
+                        <div class="security-number">
+                            03
+                        </div>
+
+                        <h3>Privacy Awareness</h3>
+
+                        <p>
+                            Never share passwords, PINs or security codes
+                            with another person, even if they claim to
+                            represent a bank.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTRACT / TERMS ================= -->
+
+        <section class="section terms-section" id="terms">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        LEGAL INFORMATION
+                    </span>
+
+                    <h2>
+                        Terms & Conditions
+                    </h2>
+
+                    <p>
+                        Please read the following information carefully.
+                        This section represents example contract information
+                        for the NovaBank educational website project.
+                    </p>
+
+                </div>
+
+
+                <div class="terms-box">
+
+                    <h3>1. Agreement</h3>
+
+                    <p>
+                        By accessing or using this website, the user
+                        acknowledges that they have read and understood
+                        these Terms & Conditions. These terms describe
+                        the general rules for using the NovaBank website.
+                    </p>
+
+
+                    <h3>2. Account Information</h3>
+
+                    <p>
+                        Users are responsible for providing accurate
+                        information when creating an account. Users should
+                        keep their login credentials confidential and
+                        should immediately take appropriate action if
+                        they believe their account has been compromised.
+                    </p>
+
+
+                    <h3>3. Responsible Use</h3>
+
+                    <p>
+                        The website must not be used for unlawful activity,
+                        unauthorized access, fraud, impersonation or any
+                        activity that could damage another person's account
+                        or information.
+                    </p>
+
+
+                    <h3>4. Privacy</h3>
+
+                    <p>
+                        Personal information should be handled responsibly.
+                        Users should review applicable privacy policies
+                        before submitting sensitive information through
+                        any real banking service.
+                    </p>
+
+
+                    <h3>5. Website Availability</h3>
+
+                    <p>
+                        Digital services may occasionally be unavailable
+                        because of maintenance, technical issues,
+                        connectivity problems or other circumstances.
+                    </p>
+
+
+                    <h3>6. Educational Notice</h3>
+
+                    <p class="important-notice">
+                        <strong>Important:</strong>
+                        NovaBank is a fictional banking website created
+                        for educational and demonstration purposes.
+                        It does not provide real banking services,
+                        accept real deposits, process real payments or
+                        create real financial accounts.
+                    </p>
+
+
+                    <h3>7. Changes to These Terms</h3>
+
+                    <p>
+                        Terms may be updated when necessary. Users should
+                        review the latest version of the terms before
+                        using a real financial service.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="contact-section" id="contact">
+
+            <div class="container contact-grid">
+
+                <div>
+
+                    <span class="section-label">
+                        NEED HELP?
+                    </span>
+
+                    <h2>
+                        Questions?
+                        <span>We've got you.</span>
+                    </h2>
+
+                    <p>
+                        If you are unsure about something, asking questions
+                        is always better than guessing. Choose the option
+                        that works best for you.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-options">
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            @
+                        </div>
+
+                        <div>
+                            <strong>Email Support</strong>
+                            <p>support@novabank.example</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            ?
+                        </div>
+
+                        <div>
+                            <strong>Help Center</strong>
+                            <p>Find answers to common questions.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            24
+                        </div>
+
+                        <div>
+                            <strong>Digital Support</strong>
+                            <p>Available online around the clock.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FINAL CTA ================= -->
+
+        <section class="final-cta">
+
+            <div class="container">
+
+                <span class="section-label">
+                    YOUR NEXT STEP
+                </span>
+
+                <h2>
+                    Less confusion.
+                    <span>More control.</span>
+                </h2>
+
+                <p>
+                    Take the first step toward a simpler way of organizing
+                    your financial life.
+                </p>
+
+                <a href="#signup" class="btn btn-primary btn-large">
+                    Get Started
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo footer-logo">
+                    <span class="logo-icon">N</span>
+                    <span>Nova<span class="logo-blue">Bank</span></span>
+                </a>
+
+                <p>
+                    Simple digital banking for a modern generation.
+                    Designed to make financial information easier
+                    to understand.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Company</h4>
+
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#security">Security</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Account</h4>
+
+                <a href="#login">Log In</a>
+                <a href="#signup">Sign Up</a>
+                <a href="#services">Banking</a>
+                <a href="#services">Savings</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Legal</h4>
+
+                <a href="#terms">Terms & Conditions</a>
+                <a href="#terms">Privacy Information</a>
+                <a href="#terms">Contract Information</a>
+
+            </div>
+
         </div>
 
-        <div class="box3">
-            <div class="qabiljobs.png"></div>
-            <div class="boxpara">
-                <h2>Qabil Jobs</h2>
-                <p>We connect our students with top companies for job opportunities.</p>
+
+        <div class="footer-bottom">
+
+            <div class="container footer-bottom-content">
+
+                <p>
+                    © 2026 NovaBank. Educational project only.
+                </p>
+
+                <p>
+                    This website is a fictional demonstration.
+                </p>
+
             </div>
+
         </div>
 
-    </div>
-
-    <!-- FOOTER -->
-    <div id="footer">
-        <p>© 2026 Bano Qabil Clone. For Student Project Only</p>
-    </div>
+    </footer>
 
 </body>
 </html>
